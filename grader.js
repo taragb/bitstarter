@@ -26,7 +26,7 @@ var program = require('commander');
 var cheerio = require('cheerio');
 var HTMLFILE_DEFAULT = "index.html";
 var CHECKSFILE_DEFAULT = "checks.json";
-var URL_DEFAULT = "http://frozen-reaches-8141.herokuapp.com/";
+var URL_DEFAULT = "https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Findex-fluid.html";  //"http://frozen-reaches-8141.herokuapp.com/";
 var rest = require('restler');
 
 //rest.get(URL_DEFAULT).on('complete', function(result) {
